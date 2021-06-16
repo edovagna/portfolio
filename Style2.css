@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to top right, #D96CA8 0%, #9C5FD9 50%, #F2D750 100%);
+}
+
+h1 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  color: #262626;
+}
+
+h2 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #262626;
+  font-size: 30px;
+}
+
+a {
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+  color: #262626;
+}
+a:hover{
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #9C5FD9;
+  padding: 3px;
+  border-bottom: 5px solid #262626;
+}
+
+
+
+ .page{
+   /*background-color: #fff;*/
+   padding-top: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  /* box-shadow: 5px 0px 30px rgba(0, 0, 0, .4);*/
+ }
+
+ .foto {
+   background-color: #27DEFA;
+   width: 7.5%;
+   margin: 5px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .nome {
+   /*background-color: #D6A936;*/
+   width: 30%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+ .blocchi {
+   /*background-color: #FA783E;*/
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+ }
+
+ .uno {
+   /*background-color: #fff;*/
+   width: 33%;
+   margin: 5% auto;
+  /* border: 1px solid #000;*/
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .due {
+   /*background-color: #fff;*/
+   width: 33%;
+   margin: 5% auto;
+  /* border: 1px solid #000;*/
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .tre {
+  /* background-color: #fff;*/
+   width: 33%;
+   margin: 5% auto;
+  /* border: 1px solid #000;*/
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .chi-sono{
+   margin-top: 100px;
+   height: 600px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+
+.colonna-uno{
+  /*background-color: #D6A936;*/
+  width: 500px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.colonna-due{
+  /*background-color: #9C5FD9;*/
+  width: 500px;
+  padding: 10px;
+}
